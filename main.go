@@ -5,7 +5,6 @@ import(
 	"github.com/tejutejas05/Ecommerce-Website-using-GO-/database"
 	"github.com/tejutejas05/Ecommerce-Website-using-GO-/middleware"
 	"github.com/tejutejas05/Ecommerce-Website-using-GO-/routes"
-	"github.com/tejutejas05/Ecommerce-Website-using-GO-/models"
 	"github.com/gin-gonic/gin"
 )
 
@@ -16,5 +15,8 @@ func main() {
 	}
 
 	app := controllers.NewApplication(database.ProductData(database.Client, "Products"), database.UserData(database.Client, "Users"))
+
+	port_number := 8000
+	
 }
 
