@@ -5,7 +5,7 @@ import(
 	"github.com/tejutejas05/Ecommerce-Website-using-GO-/database"
 	"github.com/tejutejas05/Ecommerce-Website-using-GO-/middleware"
 	"github.com/tejutejas05/Ecommerce-Website-using-GO-/routes"
-	//"github.com/tejutejas05/Ecommerce-Website-using-GO-/models"
+	"github.com/tejutejas05/Ecommerce-Website-using-GO-/models"
 	"github.com/gin-gonic/gin"
 )
 
